@@ -27,3 +27,8 @@ let result = extractStr.match(codingRegex);
 let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /twinkle/ig; 
 let result = twinkleStar.match(starRegex);
+
+//Regex: match anything with wildcard period
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/;
+let result = unRegex.test(exampleStr);
