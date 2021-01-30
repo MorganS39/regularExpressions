@@ -81,4 +81,7 @@ let caboose = "The last car on a train is the caboose";
 let lastRegex = /caboose$/; 
 let result = lastRegex.test(caboose);
 
-// Match all letters and numbers
+// Match all letters and numbers (shorthand character classes \w)
+let quoteSample = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/gi;
+let result = quoteSample.match(alphabetRegexV2).length;
