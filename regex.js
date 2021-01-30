@@ -135,3 +135,8 @@ let result = timRegex.test(timStr);
 let favWord = "favorite";
 let favRegex = /favou?rite/; 
 let result = favRegex.test(favWord);
+
+// Positive and negative lookahead password checker
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/; 
+let result = pwRegex.test(sampleWord);
