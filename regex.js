@@ -44,3 +44,8 @@ let alphabetRegex = /[a-z]/ig;
 let result = quoteSample.match(alphabetRegex); 
 
 // match numbers and letters of the alphabet
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/ig; 
+let result = quoteSample.match(myRegex); 
+
+// Match single characters not specified
