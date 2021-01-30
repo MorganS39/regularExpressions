@@ -145,3 +145,8 @@ let result = pwRegex.test(sampleWord);
 let myString = "Eleanor Roosevelt";
 let myRegex = /(Franklin|Eleanor).*Roosevelt/; 
 let result = myRegex.test(myString);
+
+// Reuse patterns using capture groups
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+)\s\1\s\1$/; 
+let result = reRegex.test(repeatNum);
