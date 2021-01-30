@@ -85,3 +85,10 @@ let result = lastRegex.test(caboose);
 let quoteSample = "The five boxing wizards jump quickly.";
 let alphabetRegexV2 = /\w/gi;
 let result = quoteSample.match(alphabetRegexV2).length;
+
+// Match everything but letters and numbers (shorthand \W to find any non alphanumeric characters)
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g; 
+let result = quoteSample.match(nonAlphabetRegex).length;
+
+//
