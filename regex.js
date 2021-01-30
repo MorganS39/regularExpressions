@@ -72,4 +72,6 @@ let result = text.match(myRegex);
 let reCriminals = /C+/; 
 
 // match beginning string patterns
-
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; 
+let result = calRegex.test(rickyAndCal);
