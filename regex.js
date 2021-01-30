@@ -95,3 +95,8 @@ let result = quoteSample.match(nonAlphabetRegex).length;
 let movieName = "2001: A Space Odyssey";
 let numRegex = /\d/g; 
 let result = movieName.match(numRegex).length;
+
+// Match all non-numbers (\D)
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /\D/g; 
+let result = movieName.match(noNumRegex).length;
