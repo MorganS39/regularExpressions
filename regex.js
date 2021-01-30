@@ -32,3 +32,15 @@ let result = twinkleStar.match(starRegex);
 let exampleStr = "Let's have fun with regular expressions!";
 let unRegex = /.un/;
 let result = unRegex.test(exampleStr);
+
+// match single characters with multiple possibilities
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/ig; 
+let result = quoteSample.match(vowelRegex);
+
+// match letters of the alphabet
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/ig; 
+let result = quoteSample.match(alphabetRegex); 
+
+// match numbers and letters of the alphabet
