@@ -52,3 +52,8 @@ let result = quoteSample.match(myRegex);
 let quoteSample = "3 blind mice.";
 let myRegex = /[^aeiou0-9]/ig; 
 let result = quoteSample.match(myRegex); 
+
+// Match characters that occur one or more times
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; 
+let result = difficultSpelling.match(myRegex);
