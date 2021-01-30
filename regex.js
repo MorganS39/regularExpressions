@@ -120,3 +120,8 @@ let result = sample.match(countWhiteSpace);
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6}\sno/; 
 let result = ohRegex.test(ohStr);
+
+// Specify only the lower number of matches
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/;
+let result = haRegex.test(haStr);
