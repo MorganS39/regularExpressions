@@ -57,3 +57,13 @@ let result = quoteSample.match(myRegex);
 let difficultSpelling = "Mississippi";
 let myRegex = /s+/g; 
 let result = difficultSpelling.match(myRegex);
+
+// Match characters that occur zero or more times
+let chewieRegex = /Aa*/;
+
+let result = chewieQuote.match(chewieRegex);
+
+// Find characters with lazy matching
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/;
+let result = text.match(myRegex);
